@@ -1,7 +1,7 @@
 import streamlit as st 
 import pandas as pd 
 import plotly.express as px 
-car_data = pd.read_csv("/Users/Daye Seijas/my_project/vehicles_us.csv")
+car_data = pd.read_csv("vehicles_us.csv")
 #car_data.info()
 st.header('Información de Venta de Vehiculos')
 
